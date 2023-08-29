@@ -1,0 +1,32 @@
+# My Django Project
+
+This is a brief description of my Django project.
+
+## Installation
+
+To set up the project, follow these steps:
+
+1. Clone the repository.
+2. Create a virtual environment:e.g `python -m venv venv`
+3. Activate the virtual environment: `source venv/bin/activate` form mac & venv\Scripts\activate for windows
+4. Install dependencies: `pip install -r requirements.txt`
+5. install docker
+6. Run docker-compose build to build an image inside the container
+7. Run docker-compose up to spin up container
+8. migrations in container, and mailhog in docker will automatically be ran
+9. No need to run the development server: `python manage.py runserver`, it will be handled by docker
+
+## Usage
+
+I sent screenshots of rounting to different urls.
+
+## Technologies:
+Python, Django, DRF, Mailhog for email testing (which is the standard), and Docker
+
+## Contributing
+
+Contributions are welcome! Please follow the guidelines in CONTRIBUTING.md.
+
+
+
+
